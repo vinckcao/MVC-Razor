@@ -23,7 +23,40 @@ ASP.NET 是一个基于事件的系统，他拥有一个基于控件和时间驱
 
 ## Ch3 视图 
 
-@ViewBag， @ViewData 是什么？
+* @ViewBag， @ViewData 是什么？
+* XSS是什么
+
+
+### Razor 语法
+
+* Foreach循环
+* 用()支持显示代码表达式
+* 用@来转移@
+
+* Html.Raw来用变量呈现html
+
+
+* 布局
+@RenderBody() 嵌入内容
+@RenderSection() 
+
+
+* _ViewStart
+优先于同目录下的任何视图代码的执行
+
+* 指定部分视图 
+
+PartialViewResult,不渲染布局信息
+
+
+CH 4 Model
+
+
+
+
+
+
+
 
 
 

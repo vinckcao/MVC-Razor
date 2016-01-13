@@ -1,0 +1,22 @@
+﻿@{
+    var items = new[] { "1", "2", "3" };
+}
+
+<html>
+<head>
+    <title>
+        Sample View
+    </title>
+</head>
+<body>
+    <h1>
+        Listing @items.Length items.
+    </h1>
+    @foreach (var item in items)
+    {
+        <li>The item name is @item</li>
+    }
+</body>
+
+</html>
+

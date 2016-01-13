@@ -1,0 +1,15 @@
+﻿@{
+    ViewBag.UserName = "Simmon";
+}
+
+<h2>JavaScriptStringEncode</h2>
+<h3 id="message"></h3>
+<script src="http://libs.baidu.com/jquery/1.10.2/jquery.min.js">
+</script>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        var message = 'Hello @ViewBag.UserName';
+        $("#message").html(message).show('slow')
+    });
+</script>
