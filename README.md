@@ -53,6 +53,17 @@ CH 4 Model
 
 
 
+CH 5 表单和辅助方法
+
+* post 和 get
+POST	会把值放在httprequest主体中，重复提交会导致多条数据
+GET		方法会把值附加在URL中，可以保存表单数据，Get是等幂操作，不会改变服务器的状态
+
+
+* Html.BeginForm 用来帮助form查找对应的view
+BeginForm使用using语法糖来实现写入<form>用dispose来写入</form>
+
+
 
 
 

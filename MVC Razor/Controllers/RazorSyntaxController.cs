@@ -16,6 +16,12 @@ namespace MVC_Razor.Controllers
             return View("DemoLists");
         }
 
+        public ActionResult DemoLists()
+        {
+            return View("DemoLists");
+        }
+
+
         public ActionResult ForeachDemo()
         {
             return View("ForeachDemo");
@@ -33,6 +39,11 @@ namespace MVC_Razor.Controllers
         public ActionResult JavaScriptStringEncode()
         {
             return View("JavaScriptStringEncode");
+        }
+
+        public ActionResult SearchView()
+        {
+            return View("SearchView");
         }
 
         public ActionResult PartialViewTest()
