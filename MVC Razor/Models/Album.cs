@@ -8,5 +8,7 @@ namespace MVC_Razor.Models
     public class Album
     {
         public string Title { set; get; }
+
+        public string GenreId { set; get; }
     }
 }
