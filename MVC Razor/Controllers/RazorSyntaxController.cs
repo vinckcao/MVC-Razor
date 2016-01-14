@@ -50,13 +50,14 @@ namespace MVC_Razor.Controllers
         public ActionResult HtmlTextBox()
         {
             ViewBag.Album = new Album() { Title = "范特西" };
+            ViewBag.Price = "100";
             return View("HtmlTextBox");
         }
 
         public ActionResult EditFormSample()
         {
             ViewBag.Genres = new SelectList(new List<string> { "1", "2", "3" });
-            return View("EditFormSample", new MVC_Razor.Models.Album() { Title = "ddd" });
+            return View(new MVC_Razor.Models.Album() { Title = "范特西" });
         }
 
         public ActionResult PartialViewTest()

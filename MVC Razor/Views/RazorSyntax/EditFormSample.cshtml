@@ -1,5 +1,5 @@
 ﻿@{
-    ViewBag.Title = "EditFormSample";
+    ViewBag.Title = "Edit-" + Model.Title;
 }
 
 @using (Html.BeginForm())
@@ -13,7 +13,7 @@
         </p>
         <p>
             @Html.Label("Title")
-            @Html.TextBox("Title", Model.Title)
+            @Html.TextBox("Title")
             @Html.ValidationMessage("Title")
         </p>
     </fieldset>

@@ -1,0 +1,19 @@
+﻿@model MVC_Razor.Models.Album
+
+@{
+    ViewBag.Title = "StrongTypeModel";
+}
+
+<h2>StrongTypeModel</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.ValidationSummary(excludePropertyErrors: true)
+    <fieldset>
+        <legend>Edit Album</legend>
+        <p>
+            @Html.LabelFor(m => m.GenreId)
+            @Html.DropDownListFor(m => m.GenreId, ViewBag.Genres as SelectList)
+        </p>
+    </fieldset>
+}
