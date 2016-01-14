@@ -41,9 +41,9 @@ namespace MVC_Razor.Controllers
             return View("JavaScriptStringEncode");
         }
 
-        public ActionResult SearchView()
+        public ActionResult HtmlBeginForm()
         {
-            return View("SearchView");
+            return View("HtmlBeginForm");
         }
 
         public ActionResult PartialViewTest()
