@@ -46,6 +46,12 @@ namespace MVC_Razor.Controllers
             return View("HtmlBeginForm");
         }
 
+        public ActionResult EditFormSample()
+        {
+            ViewBag.Genres = new SelectList(new List<string> { "1", "2", "3" });
+            return PartialView("EditFormSample", new MVC_Razor.Models.Album() { Title = "ddd" });
+        }
+
         public ActionResult PartialViewTest()
         {
             return PartialView("JavaScriptStringEncode");

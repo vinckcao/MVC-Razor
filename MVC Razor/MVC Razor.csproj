@@ -193,6 +193,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountModels.cs" />
+    <Compile Include="Models\Album.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -312,6 +313,7 @@
     <Content Include="Views\RazorSyntax\HtmlRaw.cshtml" />
     <Content Include="Views\RazorSyntax\JavaScriptStringEncode.cshtml" />
     <Content Include="Views\RazorSyntax\HtmlBeginForm.cshtml" />
+    <Content Include="Views\RazorSyntax\EditFormSample.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

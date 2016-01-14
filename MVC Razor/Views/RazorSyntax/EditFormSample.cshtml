@@ -1,0 +1,20 @@
+﻿@{
+    ViewBag.Title = "EditFormSample";
+}
+
+@using (Html.BeginForm())
+{
+    @Html.ValidationSummary(excludePropertyErrors: true)
+    <fieldset>
+        <legend>Edit Album</legend>
+        <p>
+            @Html.Label("GenreId")
+            @Html.DropDownList("GenreId", ViewBag.Genres as SelectList)
+        </p>
+        <p>
+            @Html.Label("Title")
+            @Html.TextBox("Title", "ddd")
+            @Html.ValidationMessage("Title")
+        </p>
+    </fieldset>
+}
