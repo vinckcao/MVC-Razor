@@ -1,7 +1,7 @@
 USEFUL URL 我的MVC学习笔记
 ============================
 
-## Ch1 重点
+## Ch1  
 
 * JSON.NET  linq to json, json to xml
 * DotNetOpenAuth 
@@ -49,19 +49,25 @@ ASP.NET 是一个基于事件的系统，他拥有一个基于控件和时间驱
 PartialViewResult,不渲染布局信息
 
 
-CH 4 Model
+## CH 4 Model
 
 
 
-CH 5 表单和辅助方法
+## CH 5 表单和辅助方法
 
-* post 和 get
+### * post 和 get
 POST	会把值放在httprequest主体中，重复提交会导致多条数据
 GET		方法会把值附加在URL中，可以保存表单数据，Get是等幂操作，不会改变服务器的状态
 
+### 辅助方法
+* Html.BeginForm 
+用来帮助form查找对应的view，BeginForm使用using语法糖来实现写入<form>用dispose来写入</form>
 
-* Html.BeginForm 用来帮助form查找对应的view
-BeginForm使用using语法糖来实现写入<form>用dispose来写入</form>
+* Html.TextArea 
+用来帮助写入Text内容，避免xss
+
+* Html.ValidationSummary
+写的太简单暂时没看懂
 
 
 
