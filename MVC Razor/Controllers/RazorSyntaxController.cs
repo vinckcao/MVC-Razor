@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MVC_Razor.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -31,7 +32,7 @@ namespace MVC_Razor.Controllers
         {
             return View("BracketDemo");
         }
-        public ActionResult HtmlRawDemo()
+        public ActionResult HtmlRaw()
         {
             return View("HtmlRaw");
         }
@@ -44,6 +45,12 @@ namespace MVC_Razor.Controllers
         public ActionResult HtmlBeginForm()
         {
             return View("HtmlBeginForm");
+        }
+
+        public ActionResult HtmlTextBox()
+        {
+            ViewBag.Album = new Album() { Title = "范特西" };
+            return View("HtmlTextBox");
         }
 
         public ActionResult EditFormSample()

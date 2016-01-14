@@ -253,6 +253,8 @@
     <Content Include="Content\themes\base\minified\jquery.ui.theme.min.css" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <None Include="Properties\PublishProfiles\aliyun.pubxml" />
+    <None Include="Properties\PublishProfiles\MVC Razor.pubxml" />
     <None Include="Scripts\jquery-1.8.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.8.2.js" />
     <Content Include="Scripts\jquery-1.8.2.min.js" />
@@ -314,6 +316,7 @@
     <Content Include="Views\RazorSyntax\JavaScriptStringEncode.cshtml" />
     <Content Include="Views\RazorSyntax\HtmlBeginForm.cshtml" />
     <Content Include="Views\RazorSyntax\EditFormSample.cshtml" />
+    <Content Include="Views\RazorSyntax\HtmlTextBox.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
