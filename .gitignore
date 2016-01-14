@@ -53,6 +53,7 @@ Temporary Items
 
 
 # Build results
+*.suo
 [Dd]ebug/
 [Dd]ebugPublic/
 [Rr]elease/
