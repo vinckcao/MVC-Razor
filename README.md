@@ -88,7 +88,22 @@ EditorFor支持用属性注解来生成标签属性
 * Html.RouterLink
 和ActionLink的用法差不多，只接收路由名称，不接受控制器名称和操作名称
 
+* Url.Content
+用于辅助寻找content未知，~表示根目录
 
+* Html.Partial
+用于将部分视图渲染成字符串
+* Html.RenderPartial 
+于Partial方法相似，但是不返回字符串，而是直接写入响应输出流。因此必须放到代码块中，而不能放在表达式中。因此具有更好的性能。
+
+* Html.Action , Html.RenderAction
+执行单独的控制器操作，并返回结果。RenderAction直接写入相应流。
+
+
+## CH 6 数据注解和验证
+
+
+## CH 7
 
 
 
