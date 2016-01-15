@@ -318,6 +318,7 @@
     <Content Include="Views\RazorSyntax\HtmlTextBox.cshtml" />
     <Content Include="Views\RazorSyntax\StrongTypeModel.cshtml" />
     <Content Include="Views\RazorSyntax\HtmlEditorFor.cshtml" />
+    <Content Include="Views\RazorSyntax\HtmlActionLink.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

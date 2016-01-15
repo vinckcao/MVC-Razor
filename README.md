@@ -72,8 +72,21 @@ GET		方法会把值附加在URL中，可以保存表单数据，Get是等幂操
 * Model 
 Model模型传到Razor端，可以用dynamic类型，也可以使用强类型。强类型用 @model 来定义
 
+* Html.EditorFor Html.TextBoxFor
+EditorFor支持用属性注解来生成标签属性
 
+* Html.HiddenFor 用来隐藏页面元素
 
+* Html.Password
+用来渲染密码字段。不保留提交值，显示掩码。
+
+* Html.RadioButton  Html.CheckBox
+
+* Html.ActionLink
+用于渲染超链接，指向另一个控制器。可以像BeginForm一样在后台使用路由API来生成URL。
+
+* Html.RouterLink
+和ActionLink的用法差不多，只接收路由名称，不接受控制器名称和操作名称
 
 
 

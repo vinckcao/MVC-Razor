@@ -71,6 +71,10 @@ namespace MVC_Razor.Controllers
             return View(new MVC_Razor.Models.Album() { Title = "范特西", GenreId = "R&B" });
         }
 
+        public ActionResult HtmlActionLink()
+        {
+            return View();
+        }
 
         public ActionResult PartialViewTest()
         {
