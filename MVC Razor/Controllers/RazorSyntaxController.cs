@@ -56,9 +56,21 @@ namespace MVC_Razor.Controllers
 
         public ActionResult EditFormSample()
         {
-            ViewBag.Genres = new SelectList(new List<string> { "1", "2", "3" });
+            ViewBag.Genres = new SelectList(new List<string> { "爵士", "摇滚", "民族" });
             return View(new MVC_Razor.Models.Album() { Title = "范特西" });
         }
+
+        public ActionResult StrongTypeModel()
+        {
+            ViewBag.Genres = new SelectList(new List<string> { "爵士", "摇滚", "R&B" });
+            return View(new MVC_Razor.Models.Album() { Title = "范特西", GenreId = "R&B" });
+        }
+
+        public ActionResult HtmlEditorFor()
+        {
+            return View(new MVC_Razor.Models.Album() { Title = "范特西", GenreId = "R&B" });
+        }
+
 
         public ActionResult PartialViewTest()
         {

@@ -69,7 +69,8 @@ GET		方法会把值附加在URL中，可以保存表单数据，Get是等幂操
 * Html.ValidationSummary
 写的太简单暂时没看懂
 
-* Model 用处？
+* Model 
+Model模型传到Razor端，可以用dynamic类型，也可以使用强类型。强类型用 @model 来定义
 
 
 
